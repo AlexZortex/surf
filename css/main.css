@@ -1,0 +1,97 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+@import 'https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;800&display=swap';
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-size: 18px;
+  font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  min-width: 960px;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.hero {
+  background: url(img/bg.png) no-repeat;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 800;
+  color: #000000;
+  border: #FEDB3F solid 2px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  background: #FEDB3F;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-family: "Alegreya Sans";
+}
+
+.btn:hover {
+  background: #292929;
+  color: #FEDB3F;
+  border-color: #292929;
+}

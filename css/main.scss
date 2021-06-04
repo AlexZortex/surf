@@ -1,0 +1,32 @@
+$yellow:#FEDB3F;
+$grey:#666666;
+$black:#292929;
+$white:#FFFFFF;
+$containerWidth: 940px;
+$baseFontSize: 18px;  
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css";
+@import 'https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700;800&display=swap';
+@import "layout";
+@import "components/hero";
+
+
+
+
+.btn{
+  font-size: 16px;
+  font-weight: 800;
+  color: #000000;
+  border: $yellow solid 2px;
+  border-radius: 35px;
+  text-transform: uppercase;
+  background: $yellow;
+  text-decoration: none;
+  padding: 17px 40px;
+  font-family:"Alegreya Sans";
+}
+.btn:hover{
+  background: $black;
+  color: $yellow;
+  border-color: $black;
+}
